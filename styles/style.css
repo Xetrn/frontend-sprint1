@@ -1,20 +1,27 @@
+/* Общие правила */
 .page {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
   background-color: #f2f2f2;
   min-width: 1100px;
   max-width: 1600px;
   height: 100vh;
   margin: 0 auto;
-  font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+.project {
+  background-position: center;
+  background-size: cover;
+}
+
+/* Блок Header */
 .header {
   position: relative;
-  height: 100vh;
-  min-height: 600px;
-  max-height: 756px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
 }
 
 .logo {
@@ -25,39 +32,34 @@
 
 .logo_place_header {
   position: absolute;
-  background-image: url(../images/logo_place_header.svg);
   top: 30px;
   left: 64px;
+  background-image: url(../images/logo_place_header.svg);
 }
 
 .header__title {
-  width: 730px;
   margin: 0 0 0 64px;
-  z-index: 3;
+  width: 730px;
   font-size: 102px;
   font-weight: 600;
   line-height: 96px;
+  z-index: 3;
 }
 
 .header__subtitle {
-  width: 388px;
   position: absolute;
   bottom: 30px;
   left: 64px;
-  z-index: 2;
+  width: 388px;
   font-size: 18px;
   font-weight: normal;
   line-height: 25px;
+  z-index: 2;
 }
 
 .header__link {
   color: #2f80ed;
   text-decoration: none;
-}
-
-.project {
-  background-position: center;
-  background-size: cover;
 }
 
 .header__main-illustration {
@@ -78,17 +80,17 @@
   background-color: #2f80ed;
 }
 
-
-
+/* Блок Content */
 .content {
   background-color: white;
 }
 
-.content__text {
+.content__zero_indent {
   margin: 0;
   padding: 0;
 }
 
+/* Блок Description */
 .description {
   padding: 100px 0 0;
   min-height: 60%;
@@ -102,7 +104,6 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: stretch;
-  width: 80%;
 }
 
 .two-columns__brief {
@@ -136,7 +137,7 @@
   font-weight: 600;
 }
 
-/* Секция DIGITS*/
+/* Блок Digits */
 .digits {
   display: flex;
   flex-direction: column;
@@ -155,6 +156,7 @@
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
+
 }
 
 .digits-subtitle {
@@ -164,6 +166,7 @@
   font-weight: normal;
 }
 
+/* Блок Flex Table */
 .flex-table {
   margin: 0;
   padding: 0;
@@ -208,6 +211,7 @@
   font-weight: normal;
 }
 
+/* Блок Feynman */
 .feynman {
   background-color: #f2f2f2;
   height: 100vh;
@@ -229,21 +233,21 @@
 }
 
 .feynman-title {
+  margin: 0 0 70px;
   width: 648px;
+  top: 100px;
+  position: absolute;
   line-height: 1.15;
   font-size: 120px;
   font-weight: 600;
-  position: absolute;
-  top: 100px;
-  margin: 0 0 70px;
   z-index: 1;
 }
 
 .feynman-subtitle {
-  line-height: 51px;
+  z-index: 1;
   font-size: 36px;
   font-weight: normal;
-  z-index: 1;
+  line-height: 51px;
 }
 
 .feynman-link {
@@ -258,6 +262,7 @@
   z-index: 1;
 }
 
+/* Блок Kaufman */
 .kaufman {
   position: relative;
   background-color: #1f1f1f;
@@ -312,15 +317,12 @@
   height: 877px;
   background-image: url(../images/kaufman-triangle.svg);
   position: absolute;
-  background-position: center;
-  background-size: cover;
   top: 0;
   right: -210px;
 }
 
+/* Блок Footer */
 .footer {
-  padding: 60px;
-  margin: 0;
   position: relative;
   display: flex;
   flex-direction: row;
@@ -328,6 +330,8 @@
   text-align: start;
   background-color: #1f1f1f;
   color: white;
+  padding: 60px;
+  margin: 0;
   min-height: 350px;
   box-sizing: border-box;
 }
@@ -340,7 +344,7 @@
 }
 
 .footer__column_content_copyright {
-  flex-basis: 711px; /* Занимает половину ширины контейнера */
+  flex-basis: 711px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -367,10 +371,10 @@
 }
 
 .footer__column-heading {
-  line-height: 30px;
+  margin: 0 0 20px;
   font-size: 18px;
   font-weight: 600;
-  margin: 0 0 20px;
+  line-height: 30px;
 }
 
 .footer__column-links {
@@ -390,7 +394,6 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
-
 }
 
 .footer__social-icon {

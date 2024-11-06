@@ -98,7 +98,7 @@ span {
   margin: 100px auto;
 }
 
-.description_container {
+.two-columns {
   width: 80%;
   margin: 0 auto;
   display: flex;
@@ -113,7 +113,7 @@ span {
   min-width: 784px;
 }
 
-.description_title {
+.two-columns_brief {
   margin-top: 0;
   font-size: 18px;
   line-height: 1.2;
@@ -121,15 +121,16 @@ span {
   color: #2f80ed; 
 }
 
-.description_text p {
+.two-columns_paragraph {
   font-size: 24px;
   line-height: 34px;
   font-weight: normal;
   margin: 0;
+  margin-bottom: 30px;
 }
 
-.description_text p + p {
-  margin-top: 30px;
+.two-columns_paragraph:last-child {
+  margin-bottom: 0;
 }
 
 .digits {

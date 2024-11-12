@@ -126,7 +126,7 @@
 
 .two-columns__span-accent {
   line-height: 34px;
-  font-size: 24pz;
+  font-size: 24px;
   font-weight: 600;
 }
 
@@ -177,7 +177,7 @@
   font-weight: 600;
 }
 
- .table__text__author {
+ .table__text-author {
   margin: 0;
   line-height: 1.2;
   font-size: 18px;
@@ -206,7 +206,7 @@
 .feynman__title {
   max-width: 648px;
   margin: 0;
-  margin-bottom: 60px;
+  margin-bottom: 70px;
   line-height: 1.15;
   font-size: 120px;
   font-weight: 600;
@@ -278,7 +278,7 @@
 }
 
 
-.kaufman__triangle{
+.kaufman__triangle {
   background-image: url("../images/kaufman-triangle.svg");
   background-size: cover;
   position: absolute;
@@ -289,4 +289,69 @@
   height: 787px;
 }
 
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  padding-block: 60px 40px;
+  min-height: 350px;
+  box-sizing: border-box;
+  background-color: #1f1f1f;
+}
+
+.footer__columns {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+}
+
+.logo_place_footer {
+  width: 228px;
+  height: 32px;
+}
+
+.footer__column {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.footer__column_content_copyright {
+  justify-content: space-between;
+  flex-basis: 711px;
+}
+
+.footer__author {
+  margin: 0;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  color: #fff;
+}
+
+.footer__column-heading {
+  margin: 0;
+  margin-bottom: 20px;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.footer__column-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__column-link {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer__column-link-logo {
+  margin-right: 8px;
+}
 

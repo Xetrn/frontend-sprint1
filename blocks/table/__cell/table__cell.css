@@ -1,0 +1,9 @@
+.table__cell {
+    display: block;
+  
+    margin: auto;
+  
+    margin-top: 60px;  
+  
+    z-index: 1;
+  }

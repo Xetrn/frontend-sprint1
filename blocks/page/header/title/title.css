@@ -1,0 +1,8 @@
+.title{
+    font-size: 102px;
+    line-height: 96px;
+    font-weight: 600;
+    width: 730px;
+    display: flex;
+    align-self: center;
+  }

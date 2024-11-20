@@ -2,40 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   padding: 100px 20px;
   background-color: #fff;
-}
-
-.techniques__title {
-  font-size: 36px;
-  font-weight: bold;
-  margin-bottom: 40px;
-  color: #222;
-}
-
-.techniques__list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-}
-
-.techniques__item {
-  background-color: #f2f2f2;
-  border-radius: 8px;
-  padding: 20px;
-  max-width: 300px;
-  text-align: center;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-.techniques__item-title {
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-.techniques__item-text {
-  font-size: 16px;
-  color: #666;
 }

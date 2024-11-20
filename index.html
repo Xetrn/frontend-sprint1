@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
+<head class="root">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./pagesindex.css">
+  <!-- <link rel="stylesheet" href="./styles/style.css"> -->
+  <link rel="stylesheet" href="pages/index.css">
   <title>Научиться учиться</title>
 </head>
-<body>
+<body class="root">
   <div class="page">
     <header class="header">
       <div class="project logo logo_place_header"></div>
@@ -31,8 +32,8 @@
       </section>
       <section class="techniques">
         <h2 class="text-zero_indent section-title">Техники обучения</h2>
-        <h3 class="text-zero_indent section-subtitle">Пять прктик от Барбары Оакли</h3>
-        <ul class="table cards">
+        <h3 class="text-zero_indent section-subtitle">Пять практик от Барбары Оакли</h3>
+        <ul class="cards">
           <li class="cards__row">
             <div class="cards__item">
               <img src="./images/cards-attention.png" alt="карточки-внимание" class="project cards__image">
@@ -87,7 +88,7 @@
       </section>
       <section class="feynman">
         <h1 class="feynman__title">Метод Фейнмана</h1>
-        <h2 class="feynman__subtitle">Выучить и не забыть.</h2>
+        <h2 class="text-zero_indent feynman__subtitle">Выучить и не забыть.</h2>
         <a href="#" class="feynman__link">Подробнее →</a>
         <img src="./images/feynman.png" alt="Иллюстрация Фейнмана" class="project feynman__main-illustration">
       </section>
@@ -95,7 +96,7 @@
         <h2 class="text-zero_indent section-title">Цифры и факты</h2>
         <h3 class="text-zero_indent section-subtitle">Про учёбу и мозг</h3>
         <ul class="table">
-          <li class="table__row table__row_theme_light">
+          <li class="table__row">
             <div class="table__cell table__cell_theme_light">
               <h4 class="text-zero_indent table__heading">86 миллиардов</h4>
               <p class="text-zero_indent table__text">Число нейронов в мозге человека</p>
@@ -115,7 +116,7 @@
             </div>
           </li>
 
-          <li class="table__row table__row_theme_light">
+          <li class="table__row">
             <div class="table__cell table__cell_theme_light">
               <h4 class="text-zero_indent table__heading">420 миллионов</h4>
               <p class="text-zero_indent table__text">Число взрослых людей моложе 25 лет, не имеющих образования для трудоустройства</p>
@@ -145,14 +146,14 @@
           <p class="text-zero_indent khan__quote-autor-subline">Кинорежиссер, продюсер</p>
           <ul class="khan__book-container">
             <img src="./images/khan-book.jpg" alt="книга Салман Хана" class="khan__book-pic">
-            <li class="khan__buy-link"><a href="#" class="khan__buy-link_text">Купить книгу→</a></li>
+            <div><a href="#" class="khan__buy-link">Купить книгу→</a></div>
           </ul>
         </div>
       </section>
       <section class="kaufman">
         <h2 class="section-title_theme_dark">Принципы обучения</h2>
         <h3 class="text-zero_indent section-subtitle_theme_dark">от Джоша Кауфмана</h3>
-        <ul class="table_theme_dark">
+        <ul class="table">
           <li class="table__row table__row_theme_dark">
             <div class="table__cell table__cell_theme_dark">
               <h4 class="text-zero_indent table__heading_theme_dark">1</h4>
@@ -205,10 +206,18 @@
         <h2 class="text-zero_indent section-title">Полезные ресурсы</h2>
         <h3 class="text-zero_indent section-subtitle">Больше материалов о техниках и лайфхаках обучения</h3>
         <div class="resources__logo-zone">
-          <a href="#" class="resources__link resources__link-logo resources__link-arzamas"></a>
-          <a href="#" class="resources__link resources__link-logo resources__link-n1"></a>
-          <a href="#" class="resources__link resources__link-logo resources__link-strelka"></a>
-          <a href="#" class="resources__link resources__link-logo resources__link-polka"></a>
+          <a href="#" class="resources__link">
+            <img src="./images/logo/resources-arzamas.svg" alt="arzamas Logo" class="resources__logo">
+          </a>
+          <a href="#" class="resources__link">
+            <img src="./images/logo/resources-n1.svg" alt="n1 Logo" class="resources__logo">
+          </a>
+          <a href="#" class="resources__link">
+            <img src="./images/logo/resources-strelka.svg" alt="strelka Logo" class="resources__logo">
+          </a>
+          <a href="#" class="resources__link">
+            <img src="./images/logo/resources-polka.svg" alt="polka Logo" class="resources__logo">
+          </a>
         </div>
       </section>
     </main>

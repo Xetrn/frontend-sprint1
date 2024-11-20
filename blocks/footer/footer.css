@@ -1,0 +1,31 @@
+.footer {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: start;
+  background-color: #1f1f1f;
+  color: white;
+  padding: 60px;
+  margin: 0;
+  min-height: 350px;
+  box-sizing: border-box;
+}
+
+.footer__columns {
+  margin: 60px auto 40px;
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+
+.footer__author {
+  margin: 16px 0;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__column-link:hover {
+  opacity: 0.7;
+}

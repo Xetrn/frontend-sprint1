@@ -1,0 +1,32 @@
+.resources {
+  text-align: center;
+}
+
+.resources__section-title {
+  width: 60%;
+  font-size: 60px;
+  line-height: 1.15;
+  font-weight: 600;
+  margin: 100px auto 20px auto;
+}
+
+.resources__section-subtitle {
+  width: 60%;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: normal;
+  margin: 0 auto;
+}
+
+.resources__logo-zone {
+  display: flex;
+  width: 1100px;
+  margin: 80px auto 217px auto;
+  list-style: none;
+  justify-content: center;
+}
+
+.resources__logo {
+  width: 270px;
+  height: 38px
+}
